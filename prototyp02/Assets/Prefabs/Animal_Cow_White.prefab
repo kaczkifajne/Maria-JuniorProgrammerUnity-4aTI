@@ -1509,6 +1509,7 @@ GameObject:
   - component: {fileID: 5891452535391763828}
   - component: {fileID: 5051504887130134391}
   - component: {fileID: 1056717224800864267}
+  - component: {fileID: 4897532684785912804}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1567,6 +1568,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 3
+--- !u!114 &4897532684785912804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546114316492748613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4794191700dd2434b924b0b9cd385514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!1 &7287154710666749132
 GameObject:
   m_ObjectHideFlags: 0
