@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4569609631268077939}
   - component: {fileID: 4915103119428394266}
   - component: {fileID: 2344419023032872968}
+  - component: {fileID: 8150147163890646560}
   m_Layer: 0
   m_Name: Food_Sandwich_01
   m_TagString: Untagged
@@ -117,3 +118,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4794191700dd2434b924b0b9cd385514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!54 &8150147163890646560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7301183614935945122}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
